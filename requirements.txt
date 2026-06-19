@@ -1,0 +1,18 @@
+Flask==2.3.3
+requests==2.31.0
+python-dotenv==1.0.0
+yfinance==0.2.32
+pandas==2.1.1
+sec-edgar-scraper>=0.5.0
+gunicorn==21.2.0
+
+# Core Execution Requirements
+pandas
+numpy
+yfinance
+
+# Optional / Extension Packages (Included from your list)
+pyyaml
+python-dotenv
+requests
+alpha-vantage
