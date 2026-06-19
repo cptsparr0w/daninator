@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -216,3 +217,24 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+=======
+# Ignore all internal python cache directories
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Ignore local TrueNAS database and dynamic log profiles
+*.db
+*.log
+*.txt
+*.tsv
+# Block exception rule to keep your target input ticker list explicit
+!all_tickers.txt
+
+# Ignore automated calculation output folders completely
+output/
+out/
+archives/
+working versions/
+>>>>>>> edd22bf (Hello world! Darninator is here)
