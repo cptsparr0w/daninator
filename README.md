@@ -119,6 +119,14 @@ pip install -r requirements.txt</code></pre>
   <li><strong>Value Traps &amp; Data Integrity:</strong> The tool assumes incoming data from third-party APIs is accurate. While it treats missing data harshly, it cannot autonomously spot fat-finger data entry errors from upstream sources (e.g., millions mixed up with billions or raw currency conversion glitches).</li>
   <li><strong>Regional / ADR Risk:</strong> A significant number of stocks passing the US market screen are international ADRs trading on US exchanges. You must factor in localized geopolitical or currency risks independently.</li>
   <li><strong>Point-in-Time Static Output:</strong> This tool produces a static financial snapshot. If you are someone who acts purely on real-time news alerts, macro events, or sentiment shifts, this point-in-time calculation engine is not for you.</li>
+
+
+<h3 id="Caching Stuff"> Caching</h3>
+<p>Recommended process:<br>
+Step 1 (Sync Data): Temporarily set cache_expiry_days: 5 to populate your local cache with current data. <br>
+Step 2 (Run Analysis): Set cache_expiry_days: 0.0416 to run your analysis with the fast, cached data. <br>
+<i> If you see the 'No valid real-world fundamental records found' message, it means your local cache files are older than the configured expiry time (currently 1 hour). 
+ Run the data sync step first.</i><br></p>
 </ul>
 
 <h2 id="project-structure"><span class="emoji">📂</span>Project Structure</h2>
@@ -134,3 +142,4 @@ pip install -r requirements.txt</code></pre>
 
 <h2 id="legal-disclaimer"><span class="emoji">⚖️</span>Legal Disclaimer</h2>
 <p>All information provided by this screening utility is intended exclusively for educational research and informational purposes. This tool does not provide personalized investment advice, financial planning, or tax counsel. Quantitative screening results are based on historical financial metrics sourced from third-party APIs; validity, accuracy, and completeness cannot be guaranteed. The user assumes all operational and financial risk associated with data deployment, strategy implementation, or calculation error. Developers and authors shall not be held liable for any direct, indirect, incidental, or consequential trading losses or damages.</p>
+
