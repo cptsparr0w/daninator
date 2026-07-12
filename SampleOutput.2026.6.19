@@ -1,0 +1,163 @@
+ticker,company,conviction_tier,investment_archetype,final_composite_percentile,composite_quality_score,quality_pillar_score,valuation_pillar_score,financial_health_pillar_score,roce_pct,roic_wacc_spread,ebit_margin_pct,ev_ebitda,pe_ratio,pb_ratio,fcf_yield_pct,ebitda_yield_pct,dividend_yield_pct,current_ratio,market_cap
+CALM,"Cal-Maine Foods, Inc.",Tier 1 (Alpha FurtherResearchList),Deep Value Asset Play,100.00,92.95,91.53,91.89,96.83,75.00,53.80,36.00,1.95,5.41,1.36,29.00,51.00,0.00,6.38,3682582272.00
+FINV,FinVolution Group,Tier 1 (Alpha FurtherResearchList),Deep Value Asset Play,85.12,79.84,60.32,97.35,94.71,22.00,12.20,22.00,-0.61,3.77,0.49,161.00,-164.00,0.00,5.20,1102558976.00
+BRBR,"BellRing Brands, Inc.",Tier 2 (Secondary Core),Deep Value Asset Play,82.96,77.93,73.72,82.36,78.84,64.00,45.46,15.00,5.62,7.33,,23.00,18.00,0.00,2.35,1099988480.00
+IHS,IHS Holding Limited,Tier 2 (Secondary Core),Deep Value Asset Play,82.22,77.28,71.96,86.42,74.07,24.00,13.41,37.00,5.64,4.45,,25.00,18.00,0.00,2.08,2740502016.00
+KSPI,Joint Stock Company Kaspi.kz,Tier 2 (Secondary Core),Deep Value Asset Play,81.41,76.57,88.01,92.42,47.09,64.00,46.04,33.00,-0.32,7.43,0.01,3144.00,-315.00,0.00,1.23,15621191680.00
+CF,"CF Industries Holdings, Inc.",Tier 2 (Secondary Core),Core Value Opportunity,80.55,75.81,80.95,61.73,91.01,37.00,23.46,34.00,5.34,9.27,2.96,11.00,19.00,0.00,3.37,15813061632.00
+HRMY,"Harmony Biosciences Holdings, Inc.",Tier 2 (Secondary Core),Deep Value Asset Play,80.42,75.70,84.83,58.02,91.53,74.00,50.54,24.00,5.72,13.42,2.12,18.00,17.00,0.00,3.60,1926668160.00
+AFYA,Afya Limited,Tier 2 (Secondary Core),Deep Value Asset Play,76.34,72.10,58.55,87.48,76.72,18.00,9.50,33.00,2.07,8.58,1.37,91.00,48.00,0.00,2.20,1286738432.00
+GSL,"Global Ship Lease, Inc.",Tier 2 (Secondary Core),Deep Value Asset Play,76.24,72.01,58.20,91.89,71.96,17.00,6.08,50.00,3.58,3.62,0.73,26.00,28.00,0.00,2.04,1365382528.00
+FUTU,Futu Holdings Limited,Tier 2 (Secondary Core),Deep Value Asset Play,74.90,70.83,83.42,80.60,45.50,30.00,19.24,62.00,1.44,10.68,2.58,301.00,70.00,0.00,1.19,13548395520.00
+INVA,"Innoviva, Inc.",Tier 2 (Secondary Core),Deep Value Asset Play,74.80,70.74,61.90,65.08,98.41,18.00,9.49,40.00,7.25,3.59,1.24,11.00,14.00,0.00,14.64,1659958784.00
+FSM,Fortuna Mining Corp.,Tier 2 (Secondary Core),Core Value Opportunity,73.21,69.34,69.14,58.02,89.42,28.00,8.36,39.00,6.67,8.57,1.59,10.00,15.00,0.00,2.98,2805385472.00
+BBWI,"Bath & Body Works, Inc.",Tier 2 (Secondary Core),Deep Value Asset Play,70.47,66.92,68.43,82.54,48.15,41.00,25.87,15.00,5.90,5.84,,21.00,17.00,0.00,1.27,4144110592.00
+DAC,Danaos Corporation,Tier 2 (Secondary Core),Deep Value Asset Play,68.67,65.34,43.21,83.42,89.95,13.00,3.08,48.00,3.64,4.45,0.59,15.00,27.00,0.00,3.28,2292733696.00
+FOX,Fox Corporation,Tier 2 (Secondary Core),Deep Value Asset Play,67.81,64.58,58.91,57.85,87.30,23.00,12.13,20.00,6.04,12.36,1.80,15.00,17.00,0.00,2.91,19714334720.00
+LRN,"Stride, Inc.",Tier 2 (Secondary Core),Core Value Opportunity,67.53,64.33,67.02,46.21,95.77,34.00,22.65,17.00,6.16,12.96,2.11,11.00,16.00,0.00,5.39,3521056768.00
+BTG,B2Gold Corp.,Tier 2 (Secondary Core),Deep Value Asset Play,67.50,64.31,83.42,68.08,39.15,37.00,19.12,46.00,4.23,11.32,1.56,16.00,24.00,0.00,1.06,5729396224.00
+CMRE,Costamare Inc.,Tier 2 (Secondary Core),Deep Value Asset Play,65.88,62.88,53.44,75.66,62.96,15.00,5.43,52.00,4.85,5.37,0.85,13.00,21.00,0.00,1.73,1834015616.00
+HLF,Herbalife Ltd.,Tier 2 (Secondary Core),Deep Value Asset Play,65.36,62.43,60.49,84.66,42.86,37.00,23.43,10.00,5.09,5.22,,20.00,20.00,0.00,1.13,1233666048.00
+JHG,Janus Henderson Group plc,Tier 2 (Secondary Core),Core Value Opportunity,65.13,62.22,60.49,47.97,93.65,23.00,7.69,32.00,7.06,10.27,1.54,9.00,14.00,0.00,4.18,7993443328.00
+HRB,"H&R Block, Inc.",Tier 2 (Secondary Core),Deep Value Asset Play,65.10,62.20,82.54,75.49,30.16,73.00,52.75,22.00,5.72,6.15,-179.06,14.00,17.00,0.00,0.90,4358016000.00
+CTSH,Cognizant Technology Solutions Corporation,Tier 2 (Secondary Core),Deep Value Asset Play,65.07,62.17,52.20,65.96,75.66,23.00,10.17,16.00,5.14,9.48,1.37,13.00,19.00,0.00,2.14,20670099456.00
+ARLP,"Alliance Resource Partners, L.P.",Tier 2 (Secondary Core),Deep Value Asset Play,64.96,62.07,80.60,40.39,74.60,98.00,72.19,18.00,8.88,12.38,,13.00,11.00,0.00,2.10,3026054912.00
+ANF,Abercrombie & Fitch Co.,Tier 2 (Secondary Core),Core Value Opportunity,64.67,61.81,63.84,64.73,55.03,39.00,22.51,13.00,5.02,8.44,2.89,10.00,20.00,0.00,1.49,3876222464.00
+FHI,"Federated Hermes, Inc.",Tier 2 (Secondary Core),Core Value Opportunity,64.59,61.74,83.42,35.10,84.13,49.00,32.15,29.00,7.93,11.47,3.53,7.00,13.00,0.00,2.75,4484160512.00
+ACN,Accenture plc,Tier 2 (Secondary Core),Deep Value Asset Play,64.18,61.38,67.20,61.55,52.91,39.00,22.16,16.00,6.18,10.49,2.52,14.00,16.00,0.00,1.42,78763393024.00
+BSM,"Black Stone Minerals, L.P.",Tier 2 (Secondary Core),Core Value Opportunity,62.46,59.87,98.59,24.69,93.12,169.00,128.90,62.00,12.01,11.03,,6.00,8.00,0.00,3.88,2977115648.00
+FOXA,Fox Corporation,Tier 2 (Secondary Core),Deep Value Asset Play,62.46,59.87,58.73,46.74,87.30,23.00,12.08,20.00,6.65,13.74,2.00,14.00,15.00,0.00,2.91,21931409408.00
+BKE,"The Buckle, Inc.",Tier 2 (Secondary Core),Core Value Opportunity,62.33,59.75,76.19,41.62,67.20,47.00,28.77,20.00,8.58,10.31,4.98,9.00,12.00,0.00,1.89,2327072000.00
+KGC,Kinross Gold Corporation,Tier 2 (Secondary Core),Core Value Opportunity,62.06,59.52,86.95,31.57,78.84,43.00,23.41,46.00,9.55,11.35,3.50,8.00,10.00,0.00,2.35,31846899712.00
+G,Genpact Limited,Tier 2 (Secondary Core),Deep Value Asset Play,61.41,58.94,52.20,67.02,59.79,22.00,10.85,15.00,6.66,8.67,1.93,15.00,15.00,0.00,1.66,4788558848.00
+AU,AngloGold Ashanti plc,Tier 2 (Secondary Core),Core Value Opportunity,61.06,58.63,91.01,26.81,86.77,57.00,37.96,43.00,8.16,13.34,5.38,7.00,12.00,0.00,2.87,45946064896.00
+ERIC,Telefonaktiebolaget LM Ericsson (publ),Tier 2 (Secondary Core),Deep Value Asset Play,60.28,57.95,57.85,65.26,49.21,29.00,17.77,13.00,0.87,14.78,0.37,77.00,115.00,0.00,1.29,37761970176.00
+IAG,IAMGOLD Corporation,Tier 2 (Secondary Core),Core Value Opportunity,60.12,57.80,60.67,51.15,63.49,25.00,4.79,39.00,6.59,9.87,2.26,9.00,15.00,0.00,1.75,9756639232.00
+EEFT,"Euronet Worldwide, Inc.",Tier 2 (Secondary Core),Deep Value Asset Play,60.03,57.73,56.79,74.07,41.80,30.00,16.80,12.00,4.48,9.65,2.07,17.00,22.00,0.00,1.11,2506864128.00
+EC,Ecopetrol S.A.,Tier 2 (Secondary Core),Deep Value Asset Play,59.69,57.42,45.50,76.19,56.08,15.00,8.05,23.00,2.80,11.93,0.01,36716.00,36.00,0.00,1.55,34085740544.00
+GCT,GigaCloud Technology Inc.,Tier 2 (Secondary Core),Deep Value Asset Play,59.23,57.02,48.15,58.91,71.43,25.00,9.96,11.00,8.65,8.60,2.44,15.00,12.00,0.00,2.02,1237276160.00
+ADBE,Adobe Inc.,Tier 2 (Secondary Core),Deep Value Asset Play,58.85,56.69,89.95,47.80,34.39,68.00,43.54,37.00,8.27,11.16,6.76,13.00,12.00,0.00,1.00,77576101888.00
+NEM,Newmont Corporation,Tier 2 (Secondary Core),Core Value Opportunity,57.56,55.55,84.30,26.98,78.31,35.00,20.84,49.00,8.03,13.46,3.19,7.00,12.00,0.00,2.29,110801305600.00
+APA,APA Corporation,Tier 2 (Secondary Core),Deep Value Asset Play,57.41,55.41,71.08,73.90,24.87,27.00,15.84,31.00,5.73,7.70,1.81,15.00,17.00,0.00,0.82,11675121664.00
+ARDT,"Ardent Health, Inc.",Tier 2 (Secondary Core),Deep Value Asset Play,57.40,55.41,38.45,72.49,68.25,20.00,10.26,5.00,6.00,9.48,,20.00,17.00,0.00,1.97,1277248768.00
+AERO,AERO,Tier 2 (Secondary Core),Deep Value Asset Play,56.51,54.63,64.55,90.48,20.63,34.00,21.09,16.00,3.59,0.79,,20.00,28.00,0.00,0.64,2573735936.00
+EPAM,"EPAM Systems, Inc.",Tier 2 (Secondary Core),Deep Value Asset Play,56.21,54.36,34.74,67.90,81.48,21.00,5.25,10.00,4.16,11.01,1.18,15.00,24.00,0.00,2.59,4004014848.00
+LPG,Dorian LPG Ltd.,Tier 2 (Secondary Core),Core Value Opportunity,55.66,53.87,46.38,46.91,83.07,14.00,4.35,44.00,7.31,8.71,1.49,7.00,14.00,0.00,2.67,1692482816.00
+LDOS,"Leidos Holdings, Inc.",Tier 2 (Secondary Core),Deep Value Asset Play,55.23,53.49,49.74,52.38,61.90,23.00,12.16,12.00,7.36,9.80,2.69,12.00,14.00,0.00,1.70,13474139136.00
+INFY,Infosys Limited,Tier 2 (Secondary Core),Core Value Opportunity,55.11,53.38,77.07,29.28,68.78,49.00,33.47,20.00,8.92,13.21,8.74,9.00,11.00,0.00,1.98,42793754624.00
+IT,"Gartner, Inc.",Tier 2 (Secondary Core),Deep Value Asset Play,54.73,53.06,76.72,47.44,34.39,60.00,40.67,18.00,7.38,12.61,136.50,14.00,14.00,0.00,1.00,8535695872.00
+DOX,Amdocs Limited,Tier 2 (Secondary Core),Deep Value Asset Play,54.49,52.84,53.26,59.26,44.44,21.00,10.30,18.00,5.92,10.27,1.62,12.00,17.00,0.00,1.17,5464261120.00
+AUPH,Aurinia Pharmaceuticals Inc.,Tier 2 (Secondary Core),Deep Value Asset Play,53.10,51.62,51.85,33.16,95.24,19.00,4.08,38.00,16.76,7.62,3.79,6.00,6.00,0.00,5.25,2116783360.00
+MKTX,MarketAxess Holdings Inc.,Tier 2 (Secondary Core),Core Value Opportunity,52.97,51.50,83.42,20.81,84.66,38.00,22.00,40.00,9.49,14.26,3.59,8.00,11.00,0.00,2.77,4276462336.00
+MMS,"Maximus, Inc.",Tier 2 (Secondary Core),Deep Value Asset Play,52.30,50.91,36.86,66.49,58.73,18.00,8.08,10.00,6.27,8.37,1.74,13.00,16.00,0.00,1.64,2928600064.00
+BAH,Booz Allen Hamilton Holding Corporation,Tier 2 (Secondary Core),Deep Value Asset Play,51.95,50.61,47.62,45.33,65.08,23.00,12.96,9.00,9.49,9.62,7.23,12.00,11.00,0.00,1.78,7958822912.00
+HPQ,HP Inc.,Tier 2 (Secondary Core),Deep Value Asset Play,50.60,49.41,63.49,64.55,22.75,53.00,34.09,7.00,6.32,8.70,,13.00,16.00,0.00,0.77,21491283968.00
+GIB,CGI Inc.,Tier 2 (Secondary Core),Deep Value Asset Play,50.05,48.93,48.32,64.55,33.86,19.00,10.37,16.00,5.23,11.16,1.80,15.00,19.00,0.00,0.99,12833260544.00
+IRS,IRSA Inversiones y Representaciones Sociedad Anónima,Tier 2 (Secondary Core),Deep Value Asset Play,49.97,48.85,40.74,94.53,25.93,11.00,4.05,46.00,2.21,5.05,0.95,9860.00,45.00,14.00,0.83,1406244736.00
+CHKP,Check Point Software Technologies Ltd.,Tier 2 (Secondary Core),Core Value Opportunity,49.37,48.33,69.84,23.63,73.02,27.00,14.89,30.00,13.96,12.59,4.55,9.00,7.00,0.00,2.05,12725722112.00
+GRBK,"Green Brick Partners, Inc.",Tier 2 (Secondary Core),Core Value Opportunity,49.16,48.14,40.39,35.45,97.88,20.00,3.75,20.00,8.19,10.99,1.72,6.00,12.00,0.00,7.96,3219015168.00
+CIG,Companhia Energética de Minas Gerais - CEMIG,Tier 2 (Secondary Core),Deep Value Asset Play,48.83,47.85,33.69,90.48,34.39,14.00,6.93,15.00,3.03,6.03,1.03,51.00,33.00,1.00,1.00,5864397824.00
+GPOR,Gulfport Energy Corporation,Tier 2 (Secondary Core),Deep Value Asset Play,48.63,47.68,61.90,61.02,22.22,19.00,9.43,38.00,7.30,5.28,1.61,10.00,14.00,0.00,0.68,2887900928.00
+MD,"Pediatrix Medical Group, Inc.",Tier 2 (Secondary Core),Deep Value Asset Play,48.48,47.55,43.56,44.62,59.79,21.00,9.39,12.00,8.69,11.46,2.15,13.00,12.00,0.00,1.66,1938898432.00
+AXIA,AXIA Energia SA,Tier 2 (Secondary Core),Deep Value Asset Play,48.27,47.36,27.69,72.66,61.38,7.00,1.78,32.00,4.66,11.47,1.21,53.00,21.00,0.00,1.68,22445289472.00
+MTCH,"Match Group, Inc.",Tier 2 (Secondary Core),Deep Value Asset Play,48.18,47.28,72.84,26.63,52.91,34.00,18.56,26.00,11.46,13.53,,12.00,9.00,0.00,1.42,8269298688.00
+DDS,"Dillard's, Inc.",Tier 2 (Secondary Core),Core Value Opportunity,47.40,46.60,64.55,21.34,82.54,47.00,27.49,10.00,9.62,13.20,4.28,7.00,10.00,0.00,2.65,8665276416.00
+INCY,Incyte Corporation,Tier 2 (Secondary Core),Core Value Opportunity,47.29,46.49,83.42,14.81,90.48,64.00,42.06,26.00,11.54,13.87,3.49,7.00,9.00,0.00,3.32,19622604800.00
+CEPU,Central Puerto S.A.,Tier 2 (Secondary Core),Deep Value Asset Play,46.44,45.75,20.11,91.53,64.55,7.00,2.05,19.00,1.22,7.43,1.26,4927.00,82.00,0.00,1.77,2350284288.00
+MAT,"Mattel, Inc.",Tier 2 (Secondary Core),Core Value Opportunity,45.46,44.88,27.51,53.79,76.19,15.00,5.81,10.00,7.22,9.00,1.94,10.00,14.00,0.00,2.15,4079588608.00
+HLNE,Hamilton Lane Incorporated,Tier 2 (Secondary Core),Core Value Opportunity,45.03,44.50,82.19,18.34,57.67,36.00,18.64,43.00,13.61,13.89,3.93,9.00,7.00,0.00,1.62,4565990400.00
+KFY,Korn Ferry,Tier 2 (Secondary Core),Core Value Opportunity,44.30,43.86,49.38,28.40,66.67,24.00,9.75,13.00,7.63,14.18,1.84,8.00,13.00,0.00,1.83,3707851264.00
+HESM,Hess Midstream LP,Tier 2 (Secondary Core),Core Value Opportunity,44.28,43.84,79.37,31.92,26.46,27.00,15.33,62.00,9.30,12.73,,10.00,11.00,0.00,0.85,7602071552.00
+MLCO,Melco Resorts & Entertainment Limited,Tier 2 (Secondary Core),Deep Value Asset Play,43.56,43.21,30.16,68.61,40.21,14.00,6.37,13.00,6.82,9.53,,22.00,15.00,0.00,1.07,2147252352.00
+GDDY,GoDaddy Inc.,Tier 2 (Secondary Core),Deep Value Asset Play,43.51,43.17,74.43,40.74,19.58,38.00,22.79,23.00,10.34,12.21,43.06,15.00,10.00,0.00,0.61,10200854528.00
+DBX,"Dropbox, Inc.",Tier 2 (Secondary Core),Deep Value Asset Play,42.92,42.64,87.48,32.10,20.11,77.00,53.93,27.00,10.36,14.19,,15.00,10.00,0.00,0.63,6058818048.00
+GNTX,Gentex Corporation,Tier 2 (Secondary Core),Core Value Opportunity,42.90,42.62,50.62,20.99,87.30,21.00,8.06,19.00,9.13,14.58,2.21,8.00,11.00,0.00,2.91,5526100480.00
+ADT,ADT Inc.,Tier 2 (Secondary Core),Deep Value Asset Play,42.06,41.88,28.22,81.13,31.22,11.00,3.01,26.00,4.71,8.66,1.38,26.00,21.00,0.00,0.93,5004427776.00
+ALV,"Autoliv, Inc.",Tier 2 (Secondary Core),Core Value Opportunity,41.91,41.75,48.68,37.04,38.62,25.00,10.67,10.00,7.06,12.73,3.36,8.00,14.00,0.00,1.05,8851841024.00
+BBY,"Best Buy Co., Inc.",Tier 2 (Secondary Core),Core Value Opportunity,41.90,41.74,51.50,32.80,41.80,33.00,16.74,4.00,7.03,13.84,5.11,8.00,14.00,0.00,1.11,15750627328.00
+HCA,"HCA Healthcare, Inc.",Tier 2 (Secondary Core),Core Value Opportunity,41.72,41.59,59.96,32.80,32.28,29.00,15.44,16.00,8.45,12.93,,9.00,12.00,0.00,0.97,83227639808.00
+EOG,"EOG Resources, Inc.",Tier 2 (Secondary Core),Core Value Opportunity,41.48,41.38,63.84,19.75,58.20,21.00,10.86,32.00,10.24,12.78,2.25,5.00,10.00,0.00,1.63,69231058944.00
+EVTC,"EVERTEC, Inc.",Tier 2 (Secondary Core),Core Value Opportunity,41.46,41.36,31.39,37.57,73.54,13.00,3.85,20.00,7.81,12.37,2.37,9.00,13.00,0.00,2.07,1584875264.00
+LTM,LTM,Tier 2 (Secondary Core),Core Value Opportunity,40.81,40.78,62.61,43.03,19.05,32.00,18.35,16.00,9.54,9.63,9.31,11.00,10.00,0.00,0.60,16349748224.00
+HAFN,Hafnia Limited,Tier 2 (Secondary Core),Deep Value Asset Play,40.27,40.31,24.34,57.85,54.50,11.00,4.68,16.00,8.28,8.03,1.42,13.00,12.00,0.00,1.48,3613419008.00
+MPLX,MPLX LP,Tier 2 (Secondary Core),Core Value Opportunity,40.12,40.18,66.67,20.11,47.09,20.00,10.44,42.00,13.37,12.30,,7.00,7.00,0.00,1.23,57677463552.00
+BLKB,"Blackbaud, Inc.",Tier 2 (Secondary Core),Deep Value Asset Play,40.02,40.09,38.80,59.44,24.34,16.00,6.36,17.00,8.37,9.17,35.72,16.00,12.00,0.00,0.79,1242004096.00
+FDS,FactSet Research Systems Inc.,Tier 2 (Secondary Core),Core Value Opportunity,39.97,40.04,63.32,19.58,52.38,22.00,10.05,32.00,9.91,14.24,3.81,8.00,10.00,0.00,1.40,8061843968.00
+CHTR,"Charter Communications, Inc.",Tier 2 (Secondary Core),Deep Value Asset Play,39.14,39.32,35.10,87.65,15.34,12.00,4.44,24.00,5.28,3.42,0.95,22.00,19.00,0.00,0.39,19777511424.00
+CMCSA,Comcast Corporation,Tier 2 (Secondary Core),Deep Value Asset Play,39.00,39.19,23.28,89.07,28.57,11.00,3.56,17.00,4.60,4.40,0.91,24.00,22.00,0.00,0.88,80125091840.00
+EXE,Expand Energy Corporation,Tier 2 (Secondary Core),Deep Value Asset Play,38.58,38.82,34.04,47.62,35.98,12.00,4.71,23.00,9.11,6.47,1.07,8.00,11.00,0.00,1.01,20808126464.00
+GAP,"The Gap, Inc.",Tier 2 (Secondary Core),Core Value Opportunity,38.41,38.67,19.22,60.32,63.49,16.00,3.24,7.00,6.59,8.39,2.09,11.00,15.00,0.00,1.75,7613554688.00
+MRX,Marex Group plc,Tier 2 (Secondary Core),Deep Value Asset Play,38.34,38.60,46.91,29.45,41.27,14.00,7.04,32.00,9.96,14.74,3.72,14.00,10.00,0.00,1.09,4664716800.00
+AVAH,Aveanna Healthcare Holdings Inc.,Tier 2 (Secondary Core),Deep Value Asset Play,37.87,38.19,30.51,40.56,50.26,17.00,4.94,11.00,10.46,6.44,7.04,7.00,10.00,0.00,1.32,1696312960.00
+GIS,"General Mills, Inc.",Tier 2 (Secondary Core),Deep Value Asset Play,37.15,37.56,36.86,56.79,21.69,14.00,7.13,17.00,8.56,8.17,3.23,13.00,12.00,0.00,0.67,17835624448.00
+CQP,"Cheniere Energy Partners, L.P.",Tier 2 (Secondary Core),Core Value Opportunity,36.95,37.38,72.13,24.34,23.81,26.00,15.03,34.00,9.65,13.56,,9.00,10.00,0.00,0.78,28099340288.00
+ACM,AECOM,Tier 2 (Secondary Core),Core Value Opportunity,36.71,37.17,47.97,24.87,43.39,26.00,12.61,7.00,8.49,14.37,3.89,8.00,12.00,0.00,1.14,8843661312.00
+AMG,"Affiliated Managers Group, Inc.",Tier 2 (Secondary Core),Core Value Opportunity,36.65,37.12,58.38,16.93,53.97,23.00,9.58,23.00,17.69,14.47,,10.00,6.00,0.00,1.45,9320823808.00
+ENIC,Enel Chile S.A.,Tier 2 (Secondary Core),Deep Value Asset Play,35.40,36.02,34.57,42.33,30.69,13.00,4.39,22.00,8.83,12.03,1.19,13.00,11.00,0.00,0.91,6321823744.00
+GRFS,"Grifols, S.A.",Tier 2 (Secondary Core),Deep Value Asset Play,35.37,35.99,16.75,48.32,80.95,9.00,1.01,17.00,8.11,10.42,1.58,12.00,12.00,0.00,2.51,5036257280.00
+KT,KT Corporation,Tier 2 (Secondary Core),Deep Value Asset Play,35.28,35.91,14.11,88.18,45.50,10.00,4.05,9.00,1.12,8.72,0.73,10272.00,90.00,131.00,1.19,8769117184.00
+MO,"Altria Group, Inc.",Tier 2 (Secondary Core),Core Value Opportunity,34.56,35.27,95.77,16.23,21.16,68.00,47.96,60.00,11.11,14.43,,8.00,9.00,0.00,0.65,115422887936.00
+ITRI,"Itron, Inc.",Tier 2 (Secondary Core),Core Value Opportunity,34.51,35.23,28.40,28.75,66.14,16.00,4.11,13.00,10.54,12.91,2.23,11.00,9.00,0.00,1.80,3583062528.00
+CDE,"Coeur Mining, Inc.",Tier 2 (Secondary Core),Core Value Opportunity,34.40,35.13,68.96,8.99,80.42,25.00,9.78,38.00,17.36,14.12,1.74,4.00,6.00,0.00,2.47,18044659712.00
+DLX,Deluxe Corporation,Tier 2 (Secondary Core),Deep Value Asset Play,33.98,34.77,18.69,66.84,37.57,12.00,3.49,12.00,6.31,10.15,1.51,17.00,16.00,0.00,1.04,1050286336.00
+HOG,"Harley-Davidson, Inc.",Tier 2 (Secondary Core),Deep Value Asset Play,33.94,34.73,13.93,57.14,74.60,12.00,3.02,9.00,4.77,13.30,0.88,15.00,21.00,0.00,2.10,2702237440.00
+KBR,"KBR, Inc.",Tier 2 (Secondary Core),Deep Value Asset Play,33.71,34.53,22.05,46.56,46.56,14.00,5.69,7.00,8.96,9.68,2.63,12.00,11.00,0.00,1.22,4161246464.00
+ASO,"Academy Sports and Outdoors, Inc.",Tier 2 (Secondary Core),Core Value Opportunity,33.62,34.45,18.34,43.92,67.20,14.00,3.77,8.00,7.52,9.16,1.55,7.00,13.00,0.00,1.89,3213792000.00
+CNX,CNX Resources Corporation,Tier 2 (Secondary Core),Deep Value Asset Play,33.52,34.36,34.57,57.85,16.40,11.00,3.15,37.00,9.18,4.36,1.00,12.00,11.00,0.00,0.44,4622072832.00
+LEG,"Leggett & Platt, Incorporated",Tier 2 (Secondary Core),Deep Value Asset Play,32.65,33.59,10.05,73.54,77.25,11.00,3.22,6.00,7.09,6.83,1.44,19.00,14.00,0.00,2.25,1499392512.00
+BCE,BCE Inc.,Tier 2 (Secondary Core),Deep Value Asset Play,32.53,33.49,22.93,78.84,18.52,9.00,2.01,22.00,5.86,4.80,1.51,15.00,17.00,0.00,0.58,21709201408.00
+DUOL,"Duolingo, Inc.",Tier 2 (Secondary Core),Core Value Opportunity,32.32,33.30,59.61,8.99,82.01,34.00,17.64,13.00,32.73,14.38,4.23,6.00,3.00,0.00,2.61,5850231296.00
+GSK,GSK plc,Tier 2 (Secondary Core),Core Value Opportunity,31.10,32.23,68.43,16.40,24.87,27.00,15.76,26.00,10.90,13.26,4.24,5.00,9.00,0.00,0.82,101535760384.00
+DVN,Devon Energy Corporation,Tier 2 (Secondary Core),Core Value Opportunity,30.94,32.08,47.27,20.28,32.80,17.00,7.23,22.00,14.45,11.73,1.70,6.00,7.00,0.00,0.98,48581337088.00
+CPB,The Campbell's Company,Tier 2 (Secondary Core),Core Value Opportunity,30.22,31.45,26.28,48.68,22.75,12.00,6.00,13.00,7.49,10.37,1.56,11.00,13.00,0.00,0.77,6307061760.00
+CNQ,Canadian Natural Resources Limited,Tier 2 (Secondary Core),Core Value Opportunity,29.63,30.93,29.45,32.10,31.75,14.00,3.34,19.00,11.78,11.19,2.68,10.00,8.00,0.00,0.95,85618393088.00
+CENTA,Central Garden & Pet Company,Tier 2 (Secondary Core),Deep Value Asset Play,28.87,30.26,13.93,33.16,92.06,12.00,3.30,8.00,8.72,13.74,1.43,12.00,11.00,0.00,3.67,2363923968.00
+KEP,Korea Electric Power Corporation,Tier 2 (Secondary Core),Deep Value Asset Play,28.36,29.81,15.34,93.30,17.46,8.00,2.05,14.00,4.78,2.90,0.26,29612.00,21.00,117.00,0.46,16691066880.00
+HG,"Hamilton Insurance Group, Ltd.",Tier 2 (Secondary Core),Deep Value Asset Play,26.64,28.29,81.66,91.71,1.00,44.00,28.35,29.00,2.56,5.15,1.14,27.00,39.00,0.00,0.00,3114653184.00
+LCII,LCI Industries,Tier 2 (Secondary Core),Deep Value Asset Play,26.50,28.17,9.17,45.68,86.24,12.00,1.21,7.00,8.09,11.26,1.61,12.00,12.00,0.00,2.85,2232295680.00
+BWLP,BW LPG Limited,Tier 2 (Secondary Core),Deep Value Asset Play,25.86,27.61,7.94,69.66,55.56,11.00,1.34,8.00,6.38,7.61,1.45,14.00,16.00,0.00,1.53,2747844352.00
+EPD,Enterprise Products Partners L.P.,Tier 2 (Secondary Core),Core Value Opportunity,25.81,27.56,45.86,12.35,37.57,20.00,10.39,13.00,12.24,13.56,,4.00,8.00,0.00,1.04,79184764928.00
+DHI,"D.R. Horton, Inc.",Tier 2 (Secondary Core),Core Value Opportunity,25.28,27.09,23.99,12.35,98.94,16.00,2.92,13.00,10.56,14.82,1.90,7.00,9.00,0.00,17.39,44751699968.00
+BR,"Broadridge Financial Solutions, Inc.",Tier 2 (Secondary Core),Core Value Opportunity,24.72,26.60,50.09,11.11,32.80,21.00,9.36,17.00,12.41,14.72,5.65,7.00,8.00,0.00,0.98,15914582016.00
+GEHC,GE HealthCare Technologies Inc.,Tier 2 (Secondary Core),Core Value Opportunity,24.52,26.42,34.39,12.17,51.32,17.00,5.88,13.00,10.18,14.77,2.63,5.00,10.00,0.00,1.37,28016785408.00
+GLOB,Globant S.A.,Tier 2 (Secondary Core),Deep Value Asset Play,24.34,26.26,7.23,64.55,58.73,10.00,0.25,9.00,3.72,12.50,0.62,16.00,27.00,0.00,1.64,1327339520.00
+ALL,The Allstate Corporation,Tier 2 (Secondary Core),Deep Value Asset Play,24.19,26.14,71.60,85.01,1.00,36.00,24.16,20.00,4.54,4.89,1.93,17.00,22.00,0.00,0.00,56933785600.00
+CI,The Cigna Group,Tier 2 (Secondary Core),Core Value Opportunity,23.29,25.34,16.40,40.39,26.46,12.00,4.96,3.00,8.94,11.17,1.75,11.00,11.00,0.00,0.85,73875963904.00
+AZZ,AZZ Inc.,Tier 2 (Secondary Core),Core Value Opportunity,22.63,24.76,23.10,13.93,61.90,14.00,1.93,16.00,14.82,14.98,3.51,9.00,7.00,0.00,1.70,4718011904.00
+AMP,"Ameriprise Financial, Inc.",Tier 2 (Secondary Core),Deep Value Asset Play,22.21,24.39,87.65,55.38,1.00,209.00,155.89,26.00,7.98,11.65,6.78,19.00,13.00,0.00,0.00,42020593664.00
+MCY,Mercury General Corporation,Tier 2 (Secondary Core),Deep Value Asset Play,21.84,24.07,63.84,76.54,1.00,41.00,23.81,12.00,6.46,6.77,2.20,18.00,15.00,0.00,0.00,5686750208.00
+LKQ,LKQ Corporation,Tier 2 (Secondary Core),Deep Value Asset Play,21.52,23.79,7.76,43.74,60.85,10.00,1.70,8.00,7.52,12.90,1.02,13.00,13.00,0.00,1.67,6573603328.00
+ACGL,Arch Capital Group Ltd.,Tier 2 (Secondary Core),Deep Value Asset Play,21.27,23.57,59.96,77.43,1.00,20.00,10.59,27.00,6.31,7.01,1.37,19.00,16.00,0.00,0.00,31857344512.00
+MTG,MGIC Investment Corporation,Tier 2 (Secondary Core),Deep Value Asset Play,21.18,23.48,62.96,72.49,1.00,18.00,6.95,79.00,5.96,8.27,1.10,15.00,17.00,0.00,0.00,5511436288.00
+GPI,"Group 1 Automotive, Inc.",Tier 2 (Secondary Core),Core Value Opportunity,20.15,22.58,9.88,38.10,40.74,11.00,3.44,4.00,8.89,11.90,1.30,11.00,11.00,0.00,1.08,3726038272.00
+DAL,"Delta Air Lines, Inc.",Tier 2 (Secondary Core),Core Value Opportunity,19.56,22.05,20.81,29.81,15.87,16.00,3.21,9.00,8.62,12.29,2.70,7.00,12.00,0.00,0.40,55305785344.00
+HIG,"The Hartford Insurance Group, Inc.",Tier 2 (Secondary Core),Deep Value Asset Play,18.63,21.23,54.85,63.67,1.00,21.00,10.89,18.00,7.36,9.02,1.90,16.00,14.00,0.00,0.00,35157278720.00
+ACT,"Enact Holdings, Inc.",Tier 2 (Secondary Core),Deep Value Asset Play,18.57,21.18,59.26,57.85,1.00,16.00,6.88,74.00,6.69,9.18,1.11,12.00,15.00,0.00,0.00,5917676032.00
+GLP,Global Partners LP,Tier 2 (Secondary Core),Deep Value Asset Play,18.25,20.90,7.41,40.56,43.39,11.00,2.95,1.00,9.38,11.83,,13.00,11.00,0.00,1.14,1446502656.00
+ESNT,Essent Group Ltd.,Tier 2 (Secondary Core),Deep Value Asset Play,17.91,20.60,46.91,69.84,1.00,14.00,3.42,66.00,6.70,8.31,0.95,16.00,15.00,0.00,0.00,5386334720.00
+CINF,Cincinnati Financial Corporation,Tier 2 (Secondary Core),Deep Value Asset Play,16.86,19.67,55.38,50.62,1.00,20.00,9.18,24.00,8.05,9.73,1.67,12.00,12.00,0.00,0.00,26327681024.00
+KNSL,"Kinsale Capital Group, Inc.",Tier 2 (Secondary Core),Deep Value Asset Play,15.83,18.76,75.49,31.04,1.00,32.00,16.58,34.00,11.04,13.61,3.62,14.00,9.00,0.00,0.00,7122952192.00
+AFG,"American Financial Group, Inc.",Tier 2 (Secondary Core),Deep Value Asset Play,14.99,18.03,53.62,40.92,1.00,23.00,12.31,14.00,8.99,12.62,2.36,14.00,11.00,0.00,0.00,11042139136.00
+AGO,Assured Guaranty Ltd.,Tier 2 (Secondary Core),Core Value Opportunity,14.65,17.73,39.68,55.03,1.00,11.00,2.49,73.00,6.26,8.77,0.62,8.00,16.00,0.00,0.00,3388494080.00
+LEA,Lear Corporation,Tier 2 (Secondary Core),Core Value Opportunity,13.89,17.05,4.59,35.10,50.79,11.00,0.58,3.00,6.43,13.97,1.38,8.00,16.00,0.00,1.35,7000790016.00
+GL,Globe Life Inc.,Tier 2 (Secondary Core),Core Value Opportunity,13.21,16.46,54.67,30.86,1.00,19.00,8.93,26.00,9.98,11.82,2.19,9.00,10.00,0.00,0.00,13258618880.00
+ASIC,Ategrity Specialty Insurance Company Holdings,Tier 2 (Secondary Core),Deep Value Asset Play,13.20,16.45,40.39,43.56,1.00,17.00,4.00,23.00,10.08,11.02,1.61,14.00,10.00,0.00,0.00,1016370880.00
+CB,Chubb Limited,Tier 2 (Secondary Core),Core Value Opportunity,12.28,15.64,43.74,34.39,1.00,16.00,6.16,23.00,9.95,11.44,1.70,10.00,10.00,0.00,0.00,125433954304.00
+MKL,Markel Group Inc.,Tier 2 (Secondary Core),Core Value Opportunity,11.93,15.33,37.04,39.33,1.00,16.00,5.17,18.00,7.14,13.37,1.28,11.00,14.00,0.00,0.00,23114825728.00
+CNA,CNA Financial Corporation,Tier 2 (Secondary Core),Deep Value Asset Play,11.04,14.54,22.05,61.20,1.00,12.00,4.71,12.00,7.99,9.96,1.11,20.00,13.00,0.00,0.00,12044058624.00
+AIZ,"Assurant, Inc.",Tier 2 (Secondary Core),Deep Value Asset Play,10.99,14.50,37.57,32.98,1.00,19.00,8.58,9.00,9.16,13.31,2.20,12.00,11.00,0.00,0.00,12875448320.00
+HMN,Horace Mann Educators Corporation,Tier 2 (Secondary Core),Deep Value Asset Play,10.89,14.41,25.75,49.91,1.00,12.00,4.51,15.00,9.57,12.23,1.35,28.00,10.00,0.00,0.00,1965755520.00
+FAF,First American Financial Corporation,Tier 2 (Secondary Core),Core Value Opportunity,10.73,14.28,24.69,50.97,1.00,15.00,3.44,13.00,6.83,10.56,1.28,11.00,15.00,0.00,0.00,6993396736.00
+EG,"Everest Group, Ltd.",Tier 2 (Secondary Core),Deep Value Asset Play,10.37,13.96,17.11,72.66,1.00,11.00,3.81,12.00,7.63,6.83,0.87,23.00,13.00,0.00,0.00,13281416192.00
+AFL,Aflac Incorporated,Tier 2 (Secondary Core),Core Value Opportunity,7.43,11.36,43.39,13.93,1.00,15.00,5.34,27.00,12.82,13.20,1.97,4.00,8.00,0.00,0.00,58772488192.00
+AIG,"American International Group, Inc.",Tier 2 (Secondary Core),Core Value Opportunity,6.73,10.74,14.81,40.56,1.00,9.00,0.82,16.00,6.10,13.03,0.98,8.00,16.00,0.00,0.00,39245860864.00
+
+
+# ATTRIBUTION: Darninator provided by https://opensourceholdings.com. Sourced metrics must credit https://firstmillion.substack.com and https://github.com/cptsparr0wget access to the Darninator source code at https://github.com/cptsparr0w/daninator# LEGAL DISCLAIMER: All information provided by this screening utility is intended exclusively for educational research and informational purposes. This tool does not provide personalized investment advice financial planning or tax counsel. 
+# Quantitative screening results are based on historical financial metrics sourced from third-party APIs; validity accuracy and completeness cannot be guaranteed. 
+# Users are explicitly cautioned that quantitative metric anomalies may occur within this dataset:
+# (1) Deeply negative EBITDA yields or negative Enterprise Values (EV) frequently indicate companies with structural net-cash positions that exceed their total market capitalization rather than operational distress.
+# (2) Highly asset-light companies or those with aggressive long-term share buyback programs may exhibit negative or distorted Price-to-Book (P/B) ratios due to accounting conventions regarding treasury stock.
+# (3) International listings and American Depositary Receipts (ADRs) may exhibit artificially compressed or fractional P/B ratios (e.g. 0.01) resulting from local currency rendering mismatches against USD market prices within fundamental data feeds.
+# Past performance is non-indicative of future financial returns. The user assumes all operational and financial risk associated with data deployment strategy implementation or calculation error. 
+# Developers authors and creators shall not be held liable for any direct indirect incidental or consequential trading losses or damages.
