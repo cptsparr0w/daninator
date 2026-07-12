@@ -340,14 +340,14 @@ def compile_and_write_results(results: List[Dict[str, Any]], filename: str):
 # Sourced metrics must credit https://firstmillion.substack.com and https://github.com/cptsparr0w
 # Get access to the Darninator source code at https://github.com/cptsparr0w/daninator
 # 
-# LEGAL DISCLAIMER: All information provided by this screening utility is intended exclusively for educational research and informational purposes. This tool does not provide personalized investment advice, financial planning, or tax counsel.
-# Quantitative screening results are based on historical financial metrics sourced from third-party APIs; validity, accuracy and completeness cannot be guaranteed.
+# LEGAL DISCLAIMER: All information provided by this screening utility is intended exclusively for educational research and informational purposes. This tool does not provide personalized investment advice financial planning or tax counsel.
+# Quantitative screening results are based on historical financial metrics sourced from third-party APIs; validity accuracy and completeness cannot be guaranteed.
 # Users are explicitly cautioned that quantitative metric anomalies may occur within this dataset:
 # (1) Deeply negative EBITDA yields or negative Enterprise Values (EV) frequently indicate companies with structural net-cash positions that exceed their total market capitalization rather than operational distress.
 # (2) Highly asset-light companies or those with aggressive long-term share buyback programs may exhibit negative or distorted Price-to-Book (P/B) ratios due to accounting conventions regarding treasury stock.
 # (3) International listings and American Depositary Receipts (ADRs) may exhibit artificially compressed or fractional P/B ratios (e.g. 0.01) resulting from local currency rendering mismatches against USD market prices within fundamental data feeds.
-# Past performance is non-indicative of future financial returns. The user assumes all operational and financial risk associated with data deployment, strategy implementation or calculation error.
-# Developers, authors and creators shall not be held liable for any direct, indirect, incidental or consequential trading losses or damages."""
+# Past performance is non-indicative of future financial returns. The user assumes all operational and financial risk associated with data deployment strategy implementation or calculation error.
+# Developers authors and creators shall not be held liable for any direct indirect incidental or consequential trading losses or damages."""
 
         # Write the disclaimer to the end of the CSV file
         with open(full_output_path, 'a', encoding='utf-8') as f:
