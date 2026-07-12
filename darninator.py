@@ -4,7 +4,7 @@ import sys
 import json
 import csv
 import time
-from datetime import datetime
+from datetime import datetime, timedelta
 import pandas as pd
 import numpy as np
 from typing import Dict, List, Any, Optional
@@ -61,31 +61,61 @@ class CheckpointManager:
         except Exception as e:
             print(f"⚠️ Checkpoint write delay failure for {ticker_clean}: {e}")
 
+
 # ==============================================================================
-# LAYER 2: ISOLATED NETWORK & FILE-CACHING INGESTION LAYER
+# LAYER 2: ISOLATED NETWORK & FILE-CACHING INGESTION LAYER (FIXED)
 # ==============================================================================
 class FinancialDataFetcher:
     """Handles cached lookups and defensive, network-isolated fundamental extraction."""
-    def __init__(self, cache_dir: str, expiry_days: int):
+    def __init__(self, cache_dir: str, expiry_days: float):
         self.cache_dir = cache_dir
         self.expiry_seconds = expiry_days * 86400
         os.makedirs(self.cache_dir, exist_ok=True)
 
     def fetch_fundamental_record(self, ticker: str) -> Optional[Dict[str, Any]]:
+        """Fetch data matching the schema defined in cache.py: { 'timestamp': ..., 'content': {'metrics': ...} }"""
         ticker_clean = ticker.strip().upper()
         cache_path = os.path.join(self.cache_dir, f"{ticker_clean}.json")
         
-        if os.path.exists(cache_path):
-            file_age = time.time() - os.path.getmtime(cache_path)
-            if file_age < self.expiry_seconds:
+        if not os.path.exists(cache_path):
+            return None
+
+        try:
+            with open(cache_path, 'r', encoding='utf-8') as f:
+                payload = json.load(f)
+
+            # ✅ FIXED: Now correctly navigates the nested schema from cache.py
+            if not isinstance(payload, dict) or "content" not in payload:
+                print(f"[{ticker_clean}] ⚠️ Cache file malformed (not a dict or missing 'content' key)")
+                return None
+            
+            content = payload.get("content")
+            if not isinstance(content, dict) or "metrics" not in content:
+                print(f"[{ticker_clean}] ⚠️ Cache content is missing 'metrics' key")
+                return None
+
+            metrics = content["metrics"]
+            
+            # Optional: Check for expiration to ensure data freshness
+            if "timestamp" in payload:
                 try:
-                    with open(cache_path, 'r', encoding='utf-8') as f:
-                        payload = json.load(f)
-                        metrics = payload.get('metrics') if isinstance(payload, dict) else payload
-                        if metrics:
-                            return metrics
+                    cache_time = datetime.fromisoformat(payload["timestamp"])
+                    if datetime.now() - cache_time >= timedelta(days=self.expiry_seconds / 86400):
+                        print(f"[{ticker_clean}] 🧹 Cache expired.")
+                        os.remove(cache_path)
+                        return None
                 except Exception:
                     pass
+            
+            return metrics
+
+        except Exception as e:
+            print(f"[{ticker_clean}] 🧹 Cache read error: {e}. Clearing cache...")
+            try:
+                if os.path.exists(cache_path):
+                    os.remove(cache_path)
+            except OSError:
+                pass
         return None 
 
 # ==============================================================================
@@ -344,6 +374,7 @@ def compile_and_write_results(results: List[Dict[str, Any]], filename: str):
         
     except Exception as e:
         print(f"❌ Structural failure in compilation pipeline: {e}")
+
 
 # ==============================================================================
 # LAYER 4: MAIN ORCHESTRATION ARCHITECTURE LOOP
