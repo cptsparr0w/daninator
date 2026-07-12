@@ -334,25 +334,26 @@ def compile_and_write_results(results: List[Dict[str, Any]], filename: str):
         # Write primary CSV data to targeted sub-folder
         filtered_df.to_csv(full_output_path, index=False)
 
-# --- FOOTNOTE ATTACHMENT: Append Divided Legal Disclaimers (Commas Cleaned) ---
-        disclaimer_header = (
-            "\n\n# ATTRIBUTION: Darninator provided by https://opensourceholdings.com. "
-            f"Sourced metrics must credit https://firstmillion.substack.com and https://github.com/cptsparr0w"
-            f"get access to the Darninator source code at https://github.com/cptsparr0w/daninator"
-        )
-        
-        # Stripped of commas to preserve layout alignment in spreadsheet rows
-        disclaimer_text = """# LEGAL DISCLAIMER: All information provided by this screening utility is intended exclusively for educational research and informational purposes. This tool does not provide personalized investment advice financial planning or tax counsel. 
-# Quantitative screening results are based on historical financial metrics sourced from third-party APIs; validity accuracy and completeness cannot be guaranteed. 
+# --- FOOTNOTE ATTACHMENT: Append Legal Disclaimers (Revised) ---
+        final_disclaimer = """# ATTRIBUTION: Darninator provided by https://opensourceholdings.com.
+# Sourced metrics must credit https://firstmillion.substack.com and https://github.com/cptsparr0w.
+# Get access to the Darninator source code at https://github.com/cptsparr0w/daninator.
+# 
+# LEGAL DISCLAIMER: All information provided by this screening utility is intended exclusively for educational research and informational purposes. This tool does not provide personalized investment advice, financial planning, or tax counsel.
+# Quantitative screening results are based on historical financial metrics sourced from third-party APIs; validity, accuracy, and completeness cannot be guaranteed.
 # Users are explicitly cautioned that quantitative metric anomalies may occur within this dataset:
 # (1) Deeply negative EBITDA yields or negative Enterprise Values (EV) frequently indicate companies with structural net-cash positions that exceed their total market capitalization rather than operational distress.
 # (2) Highly asset-light companies or those with aggressive long-term share buyback programs may exhibit negative or distorted Price-to-Book (P/B) ratios due to accounting conventions regarding treasury stock.
 # (3) International listings and American Depositary Receipts (ADRs) may exhibit artificially compressed or fractional P/B ratios (e.g. 0.01) resulting from local currency rendering mismatches against USD market prices within fundamental data feeds.
-# Past performance is non-indicative of future financial returns. The user assumes all operational and financial risk associated with data deployment strategy implementation or calculation error. 
-# Developers authors and creators shall not be held liable for any direct indirect incidental or consequential trading losses or damages."""
+# Past performance is non-indicative of future financial returns. The user assumes all operational and financial risk associated with data deployment, strategy implementation, or calculation error.
+# Developers, authors, and creators shall not be held liable for any direct, indirect, incidental, or consequential trading losses or damages."""
 
-        with open(full_output_path, 'a', newline='', encoding='utf-8') as f: 
-            f.write(disclaimer_header + disclaimer_text)
+        # Write primary CSV data to targeted sub-folder
+        filtered_df.to_csv(full_output_path, index=False)
+
+# --- FOOTNOTE ATTACHMENT: Append Legal Disclaimers ---
+        with open(full_output_path, 'a', encoding='utf-8') as f:
+            f.write(final_disclaimer)
 
         # Count Tier 1 matches for summary
         tier1_count = len(filtered_df[filtered_df['conviction_tier'] == 'Tier 1 (Alpha FurtherResearchList)']) if 'conviction_tier' in filtered_df.columns else 0
