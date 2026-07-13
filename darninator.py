@@ -132,6 +132,68 @@ def is_valid_fundamental_record(metrics: Dict[str, Any]) -> bool:
         return False
     return True
 
+# ==============================================================================
+# LAYER 3.5: HIGH-FIDELITY FINANCIAL DATA VALIDATION
+# ==============================================================================
+def validate_data_quality(metrics: Dict[str, Any]) -> bool:
+    """
+    Validates the financial sanity of metrics to prevent value traps from broken data.
+    Catches issues like negative market caps, negative revenue, and impossible EV calculations.
+    
+    Args:
+        metrics: A dictionary of financial metrics for a ticker.
+        
+    Returns:
+        bool: True if the data passes all sanity checks, False otherwise.
+    """
+    if not isinstance(metrics, dict) or not metrics:
+        return False
+
+    # --- 1. Market Cap >= $0: The Absolute Floor ---
+    if 'market_cap' in metrics:
+        try:
+            market_cap = float(metrics['market_cap'])
+            if market_cap < 0:
+                return False
+        except (ValueError, TypeError):
+            return False
+        
+    # --- 2. Revenue > $0: A Sign of Real Operations ---
+    if 'revenue' in metrics:
+        try:
+            revenue = float(metrics['revenue'])
+            if revenue <= 0:
+                return False
+        except (ValueError, TypeError):
+            return False
+            
+    # --- 3. EV/EBITDA sanity check ---
+    if 'ev_ebitda' in metrics and 'ebitda_yield_pct' in metrics:
+        try:
+            ev_ebitda = float(metrics['ev_ebitda'])
+            ebitda_yield_pct = float(metrics['ebitda_yield_pct'])
+            
+            # A highly negative EBITDA yield (e.g., -500%) often indicates a broken EV calculation
+            # where enterprise value is negative and much larger than market cap.
+            if ebitda_yield_pct < -100:
+                return False
+                
+        except (ValueError, TypeError):
+            return False
+            
+    # --- 4. EBITDA Yield sanity check (Additional Guardrail) ---
+    if 'ebitda_yield_pct' in metrics:
+        try:
+            ebitda_yield_pct = float(metrics['ebitda_yield_pct'])
+            # A negative EBITDA yield exceeding -100% is a strong signal of a data glitch
+            if ebitda_yield_pct < -100:
+                return False
+        except (ValueError, TypeError):
+            return False
+
+    # If all checks pass, the record is financially sound
+    return True
+
 def print_banner(title, symbol='#', width=80):
     """Print a formatted banner with the given title."""
     print(symbol * width)
@@ -149,7 +211,12 @@ def print_summary_row(label, value, label_width=45):
     print(f" --> {label.ljust(label_width)}: {value}")
 
 def compile_and_write_results(results: List[Dict[str, Any]], filename: str):
-    valid_universe = [r for r in results if is_valid_fundamental_record(r)]
+    # First, filter out structurally invalid records.
+    # Then, apply a second, stricter layer of financial sanity checks to
+    # prevent the "No records found" error from broken cache files.
+    pre_valid_universe = [r for r in results if is_valid_fundamental_record(r)]
+    valid_universe = [r for r in pre_valid_universe if validate_data_quality(r)]
+    
     if not valid_universe:
         print("❌ No valid real-world fundamental records found to process.")
         return
@@ -334,8 +401,8 @@ def compile_and_write_results(results: List[Dict[str, Any]], filename: str):
         # Write primary CSV data to targeted sub-folder
         filtered_df.to_csv(full_output_path, index=False)
 
-# --- FOOTNOTE ATTACHMENT: Append Legal Disclaimers (Commas Removed for CSV Safety) ---
-        # The entire string below has commas replaced with spaces to avoid breaking the CSV layout.
+# --- FOOTNOTE ATTACHMENT: Append Legal Disclaimers (Whitespace-Separated for CSV Safety) ---
+        # The entire string below uses whitespace instead of commas to avoid breaking the CSV layout.
         final_disclaimer = """# ATTRIBUTION: Darninator provided by https://opensourceholdings.com
 # Sourced metrics must credit https://firstmillion.substack.com and https://github.com/cptsparr0w
 # Get access to the Darninator source code at https://github.com/cptsparr0w/daninator
@@ -376,10 +443,21 @@ def compile_and_write_results(results: List[Dict[str, Any]], filename: str):
 
 
 # ==============================================================================
-# LAYER 4: MAIN ORCHESTRATION ARCHITECTURE LOOP
+# LAYER 4: MAIN ORCHESTRATION ARCHITECTURE LOOP (UPDATED WITH STATELESS RUN)
 # ==============================================================================
 def main():
     sys_cfg = CONFIG["system"]
+    
+    # --- ✅ NEW: Delete checkpoint file for a clean, stateless run ---
+    checkpoint_file = sys_cfg["checkpoint_file"]
+    if os.path.exists(checkpoint_file):
+        try:
+            os.remove(checkpoint_file)
+            print(f"🗑️ Deleted previous checkpoint file: {checkpoint_file}")
+        except Exception as e:
+            print(f"⚠️ Warning: Could not delete checkpoint file ({e}). Skipping...")
+    # -----------------------------------------------------------------
+
     checkpoint_log = CheckpointManager(sys_cfg["checkpoint_file"])
     data_fetcher = FinancialDataFetcher(sys_cfg["cache_dir"], sys_cfg["cache_expiry_days"])
     all_metrics_universe = []
@@ -393,6 +471,8 @@ def main():
             metrics = data_fetcher.fetch_fundamental_record(ticker)
             if metrics and is_valid_fundamental_record(metrics):
                 all_metrics_universe.append(metrics)
+                # This log is now effectively a no-op since the file was deleted,
+                # but it's kept for future-proofing if checkpointing logic is re-enabled.
                 if ticker not in checkpoint_log.processed_tickers:
                     checkpoint_log.log_completion(ticker)
                     
